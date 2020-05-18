@@ -1,12 +1,12 @@
 # Write your code here
-annual_salary = int (input ("Enter your Annual Salary: "))
+annual_salary = float (input ("Enter your Annual Salary: "))
 portion_saved = float (input ("Enter the percent of your salary to save, as a decimal: "))
 r = input ("Enter the expected rate of annual return [0.04]: ")
 if r == "":
     r = .04
 else: 
     r = float(r)
-total_cost = int (input ("Enter the cost of your dream home: "))
+total_cost = float (input ("Enter the cost of your dream home: "))
 portion_down_payment = input ("Enter the percent of your home's cost to save as a down payment [0.25]: ")
 if portion_down_payment == "":
     portion_down_payment = .25
