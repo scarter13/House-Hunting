@@ -21,5 +21,5 @@ i = 0
 while current_savings < down_payment:
     current_savings = (current_savings + monthly_saved) + ((current_savings * r) / 12)
     i = i + 1
-print ("Number of months:", i)
+print ("Number of months: ", i)
 
